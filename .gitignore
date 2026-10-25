@@ -1,0 +1,12 @@
+
+# Secret configuration files
+.env
+.env.*
+
+# Local database backups
+*.sql
+*.sql.zip
+
+# Logs and temporary files
+*.log
+.DS_Store

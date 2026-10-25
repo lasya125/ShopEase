@@ -22,17 +22,29 @@ ShopEase is a web-based e-commerce application built using PHP, MySQL, HTML, and
 - **Development Environment:** XAMPP
 - **Version Control:** Git and GitHub
 
+
 # 3. Project Structure
 
+
 ShopEase/
-├── admin/                 # Admin dashboard and product management
-├── css/                   # Stylesheets
-├── images/                # Product images
-├── includes/              # Database connection
-├── pages/                 # Cart, checkout, login, orders, etc.
-├── index.php              # Homepage and product catalog
-├── wishlist_action.php    # Wishlist actions
-└── README.md              # Project documentation
+├── admin/                  # Admin dashboard and product management
+├── css/                    # Stylesheets
+├── images/                 # Product images
+├── includes/
+│   └── db.php              # Database connection
+├── pages/
+│   ├── cart.php
+│   ├── checkout.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── order_confirmation.php
+│   ├── orders.php
+│   ├── register.php
+│   └── wishlist.php
+├── index.php               # Homepage and product catalog
+├── wishlist_action.php     # Wishlist actions
+└── README.md               # Project documentation
+
 
 
 # 4. Getting Started

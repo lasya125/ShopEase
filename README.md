@@ -25,25 +25,34 @@ ShopEase is a web-based e-commerce application built using PHP, MySQL, HTML, and
 
 # 3. Project Structure
 
+- **admin/** – Admin dashboard and product management
+  - `add_product.php` – Add new products
+  - `edit_product.php` – Edit existing products
+  - `delete_product.php` – Delete products
+  - `manage_products.php` – View and manage products
+  - `login.php` – Admin login
+  - `dashboard.php` – Admin dashboard
 
-ShopEase/
-├── admin/                  # Admin dashboard and product management
-├── css/                    # Stylesheets
-├── images/                 # Product images
-├── includes/
-│   └── db.php              # Database connection
-├── pages/
-│   ├── cart.php
-│   ├── checkout.php
-│   ├── login.php
-│   ├── logout.php
-│   ├── order_confirmation.php
-│   ├── orders.php
-│   ├── register.php
-│   └── wishlist.php
-├── index.php               # Homepage and product catalog
-├── wishlist_action.php     # Wishlist actions
-└── README.md               # Project documentation
+- **css/** – Website stylesheets
+
+- **images/** – Product images
+
+- **includes/**
+  - `db.php` – Database connection
+
+- **pages/**
+  - `cart.php` – Shopping cart
+  - `checkout.php` – Checkout process
+  - `login.php` – User login
+  - `logout.php` – User logout
+  - `register.php` – User registration
+  - `orders.php` – Order history
+  - `order_confirmation.php` – Order confirmation
+  - `wishlist.php` – Wishlist management
+
+- `index.php` – Homepage and product catalog
+- `wishlist_action.php` – Wishlist actions
+- `README.md` – Project documentation
 
 
 
